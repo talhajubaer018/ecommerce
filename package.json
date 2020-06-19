@@ -1,0 +1,36 @@
+{
+	"name": "law-companion",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"node-sass": "node-sass --output-style compressed -o dist/css src/scss",
+		"compilecss": "sass --watch src/scss/style.scss:public/css/style.css --watch",
+		"compilejs": "webpack --watch",
+		"server": "nodemon server.js"
+	},
+	
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/refazul/law-companion.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-react": "^7.9.4",
+		"babel-loader": "^8.1.0",
+		"node-sass": "^4.13.1",
+		"nodemon": "^1.19.1",
+		"sass": "^1.21.0",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11"
+	},
+	"dependencies": {
+		"@babel/plugin-syntax-import-meta": "^7.8.3",
+		"express": "^4.17.1",
+		"jquery": "^3.4.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}

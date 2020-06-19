@@ -1,0 +1,386 @@
+@import "bootstrap-4.3.1/bootstrap.scss";
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
+@import "fontawesome/regular.scss";
+
+$lightblue: #0099CC;
+$black: #333333;
+$lightcyan: #CCFFFF;
+
+body{
+    a{
+    color: black;
+    text-decoration: none;
+    }
+}
+.all_buttons{
+    background-color: #168FCC;
+    color:white;
+}
+
+
+.margin_top_ten{
+    margin-top: 10px;
+}
+.margin_top_twenty{
+    margin-top: 20px;
+}
+.margin_right_ten{
+    margin-right: 10px;
+}
+.margin_right_twenty{
+    margin-right: 20px;
+}
+.margin_left_ten{
+    margin-right: 10px;
+}
+.margin_left_twenty{
+    margin-right: 20px;
+}
+.margin_bottom_ten{
+    margin-bottom: 10px;
+}
+
+.margin_bottom_twenty{
+    margin-bottom: 20px;
+}
+.padding_top_ten{
+    padding-top: 10px;
+}
+.padding_top_twenty{
+    padding-top: 20px;
+}
+.padding_right_ten{
+    padding-right: 10px;
+}
+.padding_right_twenty{
+    padding-right: 20px;
+}
+.padding_left_ten{
+    padding-right: 10px;
+}
+.padding_left_twenty{
+    padding-right: 20px;
+}
+.padding_bottom_ten{
+    padding-bottom: 10px;
+}
+
+.padding_bottom_twenty{
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+.tablecell{
+    display: table-cell;
+}
+.displaytable{
+    display: table;
+}
+.verticalmiddle{
+    vertical-align: middle;
+}
+.testback{
+    background-color: $lightblue;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+.bold{
+    font-weight: bold;
+}
+.textleft{
+    text-align: left;
+}
+.textright{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.sort_dropdown_button{
+    background-color: white;
+    color: black;
+}
+
+.causelist-wrapper{
+   
+    color: $black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.causelistitem-wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $black;
+    width: 100%;
+}
+.causelistcolumnsmall{
+    width: 15%;
+}
+.causelistcolumnlarge{
+    width: 20%;
+}
+.causelistheaderitem-style{
+    background-color: $black !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.accordion_row{
+    background-color: cyan !important;
+    
+}
+.card_collapse_row{
+    background-color: #DFEEFD;
+    color: black;
+}
+.accordionheader-style{
+    background-color: black !important;
+    color: white !important;
+}
+.accordionitem-style{
+    background-color:white;
+    color: black;
+    border-bottom: 2px solid black;
+    a{
+        text-decoration: none;
+    }
+    
+}
+.collapsed-card{
+    background-color: #DFEEFD;
+    color: black;
+}
+.evenitem-style{
+    background-color: white;
+    color: $black;
+    font-weight: normal;
+}
+.unevenitem-style{
+    background-color: $lightcyan;
+    color: $black;
+    font-weight: normal;
+}
+.mainbar-wrapper {
+    width: 75%;
+    padding: 10px;
+}
+.sidebar-wrapper{
+    
+    padding: 10px;
+    width: 25%;
+    margin-top:10px;
+}
+.sidebarheader{
+    background-color: $black;
+    color: white;
+    font-size: 1.5em;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.sidebaritem-wrapper{
+    background-color: white;
+    
+}
+.quicklinkitem-wrapper{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.firstcircle{
+    color:red;
+    vertical-align: top;
+    margin-top:5px;
+    margin-right:5px;
+}
+.secondcircle{
+    color:green;
+    vertical-align: top;
+    margin-top:5px;
+    margin-right:5px;
+}
+.quicklinktext{
+    font-size: 1.2em;
+}
+.quicklinksecondtext{
+    font-size: 1em;
+}
+.quicklink2-wrapper{
+    padding-bottom: 10px;
+    margin-top:10px;
+}
+.quicklink2item-wrapper{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.quicklink2-button{
+    margin-top: 10px;
+}
+.quicklink3-wrapper{
+    margin-top: 10px;
+}
+.quicklink3form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.quicklink3-button{
+    width: 100%;
+}
+.footer-wrapper{
+    background-color: $black;
+    color: White;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+.card-header{
+    background-color: white;
+   
+}
+
+
+
+
+/////////////////////HOME2 START///////////////////////
+
+.sidebar2-wrapper{
+    background-color: $black;
+    color:white;
+}
+.infotext-wrapper{
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.accordion-wrapper{
+    color:$black;
+    margin-bottom: 10px;
+}
+.accordion-style{
+    background-color: $black;
+    border: none;
+    color:white;
+}
+.accordionheader{
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1.5em;
+    background-color: $black;
+    
+}
+.sidebarnav-wrapper{
+    
+    border-top: 1px solid white;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.sidebarnavitem{
+    color:lightgray;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.btn-link{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+///////////////////TICTACTOE//////////////////
+
+
+
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: #0099CC;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.box-row {
+    clear: both;
+}
+.sudoku {
+    .smallbox{
+        width: 50px;
+        height: 50px;
+        background-color: beige;
+        border: 1px solid black;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .b_right{
+        border-right-color: white;
+    }
+    .b_bottom{
+        border-bottom-color: white;
+    }
+    .b_top{
+        border-top-color: white;
+    }
+    .b_left{
+        border-left-color: white;
+    }
+    .correct {
+        background-color: green;
+    }
+    .incorrect {
+        background-color: red;
+    }
+    .solutionbox {
+        background-color: gray;
+        color: black;
+    }
+}
+
+.numberbox{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.number-row{
+    clear: both;
+}
+

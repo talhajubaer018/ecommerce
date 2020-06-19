@@ -2,14 +2,14 @@
 	"name": "law-companion",
 	"version": "0.0.1",
 	"description": "",
-	"main": "index.js",
+	"main": "home.js",
 	"scripts": {
 		"node-sass": "node-sass --output-style compressed -o dist/css src/scss",
 		"compilecss": "sass --watch src/scss/style.scss:public/css/style.css --watch",
 		"compilejs": "webpack --watch",
 		"server": "nodemon server.js"
 	},
-	
+
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/refazul/law-companion.git"

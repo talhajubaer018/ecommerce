@@ -1,64 +1,52 @@
 import React from 'react';
 
-
-import Navbar from 'navbar';
-import Dropdown from 'dropdown';
-import Causelist from 'causelist';
-import Quickview from 'quickview';
-import Extension from 'extension';
-import Quicknote from 'quicknote';
-import Footer from 'footer';
-import Topbanner from 'topbanner';
-import Tictactoe from 'tictactoe';
-import Sudoku from 'sudoku';
-import Accordion from 'accordion';
-import Fox from './widgets/fox';
-
-
-import define from "./dendogram/index.js";
-import { Runtime, Library, Inspector } from "./dendogram/runtime.js";
-
-
-
-
-
 import { navbar_data, sidebar1_data, causelist_data, sidebar2_data, sidebar3_data, footer_data, accordion_items_data } from './data';
 
 const Home = (props) => {
 
-    const runtime = new Runtime();
-    const main = runtime.module(define, Inspector.into(document.body));
     return (
         <div>
             <div className="header">
-                <Navbar {...navbar_data} xyz={this.state.toptext} />
+                <div>Admin Panel</div>
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="mainbar-wrapper">
-                        <Topbanner m={this} />
-                        <div className="center causelist-wrapper">
-                            <Accordion {...accordion_items_data} />
-                        </div>
-                    </div>
-                    <div className="sidebar-wrapper">
-                        <div>
-                            <Quickview {...sidebar1_data} />
-                            <Extension {...sidebar2_data} />
-                        </div>
-                    </div>
-
+            <div>
+                <div className="sidebar left">
+                    <div>Option 1</div>
+                    <div>Option 2</div>
+                    <div>Option 3</div>
+                    <div>Option 4</div>
+                    <div>Option 5</div>
+                    <div>Option 6</div>
+                    <div>Option 7</div>
                 </div>
-                <div>
-
-
-                </div>
-                <div className="footer-wrapper margin_bottom_twenty">
-                    <Footer {...footer_data} />
-
+                <div className="product_details">
+                    <div className="details_header">
+                        <div className="inline">Photo</div>
+                        <div className="inline">ID</div>
+                        <div className="inline">SKU</div>
+                        <div className="inline">ASIN</div>
+                        <div className="inline">Name</div>
+                        <div className="inline">Description</div>
+                        <div className="inline">Vendor</div>
+                        <div className="inline">Brand</div>
+                    </div>
+                    <div className="textfields">
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                        <input className="inline"></input>
+                    </div>
+                    <div className="buttons_wrapper">
+                        <button>Add New</button>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
                 </div>
             </div>
-
         </div>
     )
 
